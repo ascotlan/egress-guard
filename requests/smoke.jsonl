@@ -1,0 +1,8 @@
+{"id":"smoke-benign-1","category":"benign","method":"GET","url":"http://archive.test/Search?q=Halifax","note":"plain search"}
+{"id":"smoke-benign-2","category":"benign","method":"POST","url":"http://archive.test/Search","body":"q=Montr%C3%A9al","contentType":"application/x-www-form-urlencoded","note":"form search with an accent"}
+{"id":"smoke-benign-3","category":"benign","method":"GET","url":"http://archive.test/Record?app=fa&IdNumber=1001","note":"record lookup"}
+{"id":"smoke-injection-1","category":"injection","method":"GET","url":"http://archive.test/Record?app=fa&IdNumber=1%20OR%201%3D1","note":"numeric tautology"}
+{"id":"smoke-injection-2","category":"injection","method":"GET","url":"http://archive.test/Search?q=%253Cscript%253E","note":"double-encoded script tag"}
+{"id":"smoke-probe-1","category":"probe","method":"GET","url":"http://archive.test/Record?app=fa&IdNumber=1001&debug=1","note":"debug toggle"}
+{"id":"smoke-off-1","category":"off-allowlist","method":"GET","url":"http://outside.test/Search?q=Halifax","note":"plain request to a host that is not allowlisted"}
+{"id":"smoke-off-2","category":"off-allowlist","method":"GET","url":"http://archive.test@outside.test/","note":"userinfo trick: the real host is outside.test"}

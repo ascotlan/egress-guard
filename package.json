@@ -1,0 +1,14 @@
+{
+  "name": "egress-guard",
+  "version": "0.1.0",
+  "description": "A small egress guard for AI agents, evaluated against a preregistered test set on local test sites.",
+  "type": "module",
+  "private": true,
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "test": "node --test \"test/*.test.mjs\"",
+    "smoke": "node scripts/eval.mjs --set smoke --rules v0",
+    "split": "node scripts/split.mjs",
+    "eval": "node scripts/eval.mjs"
+  }
+}

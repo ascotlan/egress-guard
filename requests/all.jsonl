@@ -1,0 +1,230 @@
+{"id":"b-001","category":"benign","method":"GET","url":"http://archive.test/Search?q=Edmonton%201905","note":"plain search"}
+{"id":"b-002","category":"benign","method":"HEAD","url":"http://archive.test/Search?q=O%27Brien","note":"surname with apostrophe (HEAD)"}
+{"id":"b-003","category":"benign","method":"GET","url":"http://archive.test/Search?q=Red%20Deer%20homestead","note":"plain search"}
+{"id":"b-004","category":"benign","method":"GET","url":"http://archive.test/Search?q=Yorkton+land+grant","note":"plain search"}
+{"id":"b-005","category":"benign","method":"GET","url":"http://archive.test/Search?q=Peterborough%20survey%20plan","note":"plain search"}
+{"id":"b-006","category":"benign","method":"GET","url":"http://archive.test/Search?q=homestead%201905--1911","note":"date range with double hyphen"}
+{"id":"b-007","category":"benign","method":"GET","url":"http://archive.test/Search?q=C%C3%B4t%C3%A9+Rimouski+1908","note":"accented French surname"}
+{"id":"b-008","category":"benign","method":"GET","url":"http://archive.test/Search?q=order%20of%20service%20St.%20Andrew%27s%20Church%201909","note":"phrase order of service with apostrophe"}
+{"id":"b-009","category":"benign","method":"HEAD","url":"http://archive.test/Search?q=10%25%20deposit%20land%20purchase","note":"percent sign in text (HEAD)"}
+{"id":"b-010","category":"benign","method":"GET","url":"http://archive.test/Search?q=business%20licence%201905%2F06","note":"date range with slash"}
+{"id":"b-011","category":"benign","method":"GET","url":"http://archive.test/Search?q=Gauthier%20%26%20Fils%20Montr%C3%A9al","note":"ampersand and accent in business name"}
+{"id":"b-012","category":"benign","method":"GET","url":"http://archive.test/Search?q=homestead%20applications%20Saskatchewan%201908","note":"plain search"}
+{"id":"b-013","category":"benign","method":"POST","url":"http://archive.test/Search","body":"q=Select%20Standing%20Committee%20on%20Agriculture%201907","contentType":"application/x-www-form-urlencoded","note":"word select in committee name (POST form)"}
+{"id":"b-014","category":"benign","method":"GET","url":"http://archive.test/Record?app=fa&IdNumber=1015","note":"record lookup"}
+{"id":"b-015","category":"benign","method":"GET","url":"http://archive.test/Record?app=fa&IdNumber=1027","note":"record lookup"}
+{"id":"b-016","category":"benign","method":"GET","url":"http://archive.test/Search?q=Sherbrooke+parish+register","note":"plain search"}
+{"id":"b-017","category":"benign","method":"POST","url":"http://archive.test/Search","body":"q=land+grants+1905%E2%80%931911","contentType":"application/x-www-form-urlencoded","note":"date range with en dash (POST form)"}
+{"id":"b-018","category":"benign","method":"GET","url":"http://archive.test/Search?q=Ottawa%201911","note":"plain search"}
+{"id":"b-019","category":"benign","method":"GET","url":"http://archive.test/Record?app=fa&IdNumber=1075","note":"record lookup"}
+{"id":"b-020","category":"benign","method":"POST","url":"http://archive.test/Search","body":"q=Halifax%201911","contentType":"application/x-www-form-urlencoded","note":"plain search (POST form)"}
+{"id":"b-021","category":"benign","method":"POST","url":"http://archive.test/Search","body":"q=James+Sinclair","contentType":"application/x-www-form-urlencoded","note":"plain search (POST form)"}
+{"id":"b-022","category":"benign","method":"POST","url":"http://archive.test/Search","body":"q=ship+manifest+Quebec+1910","contentType":"application/x-www-form-urlencoded","note":"plain search (POST form)"}
+{"id":"b-023","category":"benign","method":"GET","url":"http://archive.test/Search?q=Robert%20Stewart","note":"plain search"}
+{"id":"b-024","category":"benign","method":"HEAD","url":"http://archive.test/Search?q=land%20grants%201905","note":"plain search (HEAD)"}
+{"id":"b-025","category":"benign","method":"GET","url":"http://archive.test/Search?q=O%27Sullivan%20OR%20Sullivan","note":"boolean OR with apostrophe surname"}
+{"id":"b-026","category":"benign","method":"HEAD","url":"http://archive.test/Search?q=online%20catalogue","note":"everyday phrase online catalogue (HEAD)"}
+{"id":"b-027","category":"benign","method":"GET","url":"http://archive.test/Search?q=Lunenburg","note":"plain search"}
+{"id":"b-028","category":"benign","method":"GET","url":"http://archive.test/Search?q=Prince%20Albert%20homestead%20application","note":"plain search"}
+{"id":"b-029","category":"benign","method":"GET","url":"http://archive.test/Search?q=Margaret%20O%27Brien","note":"surname with apostrophe"}
+{"id":"b-030","category":"benign","method":"GET","url":"http://archive.test/Search?q=drop-in%20centre%20for%20immigrants%20Halifax","note":"everyday phrase drop-in centre"}
+{"id":"b-031","category":"benign","method":"GET","url":"http://archive.test/Search?q=Calgary%20survey%20plan","note":"plain search"}
+{"id":"b-032","category":"benign","method":"HEAD","url":"http://archive.test/Search?q=onion+farm","note":"everyday phrase onion farm (HEAD)"}
+{"id":"b-033","category":"benign","method":"HEAD","url":"http://archive.test/","note":"home page (HEAD)"}
+{"id":"b-034","category":"benign","method":"HEAD","url":"http://archive.test/Search?q=Smith+%26+Sons","note":"ampersand in business name (HEAD)"}
+{"id":"b-035","category":"benign","method":"GET","url":"http://archive.test/Record?app=fa&IdNumber=1094","note":"record lookup"}
+{"id":"b-036","category":"benign","method":"GET","url":"http://archive.test/Search?q=%22Lloyd-Jones%22%20Lloydminster%201906","note":"quoted hyphenated surname"}
+{"id":"b-037","category":"benign","method":"POST","url":"http://archive.test/Search","body":"q=Stratford+Ontario+licence","contentType":"application/x-www-form-urlencoded","note":"plain search (POST form)"}
+{"id":"b-038","category":"benign","method":"GET","url":"http://archive.test/Search?q=S%C3%B8rensen%20New%20Denmark%20New%20Brunswick","note":"Danish surname with o-slash"}
+{"id":"b-039","category":"benign","method":"GET","url":"http://archive.test/Search?q=Where+can+I+find+homestead+applications+filed+by+widows+in+Saskatchewan+between+1905+and+1911%3F","note":"long natural-language question"}
+{"id":"b-040","category":"benign","method":"POST","url":"http://archive.test/Search","body":"q=%22order+of+service%22+Presbyterian+1908","contentType":"application/x-www-form-urlencoded","note":"quoted phrase order of service (POST form)"}
+{"id":"b-041","category":"benign","method":"GET","url":"http://archive.test/Search?q=union+station+Winnipeg+survey+plan","note":"everyday phrase union station"}
+{"id":"b-042","category":"benign","method":"POST","url":"http://archive.test/Search","body":"q=survey+plan+Fort+William","contentType":"application/x-www-form-urlencoded","note":"plain search (POST form)"}
+{"id":"b-043","category":"benign","method":"GET","url":"http://archive.test/Record?app=fa&IdNumber=1090","note":"record lookup"}
+{"id":"b-044","category":"benign","method":"GET","url":"http://archive.test/Search?q=Mary+Robertson","note":"plain search"}
+{"id":"b-045","category":"benign","method":"GET","url":"http://archive.test/Record?app=fa&IdNumber=1068","note":"record lookup"}
+{"id":"b-046","category":"benign","method":"GET","url":"http://archive.test/Search?q=Brandon+Manitoba+land+grant","note":"plain search"}
+{"id":"b-047","category":"benign","method":"GET","url":"http://archive.test/Search?q=NE+1%2F4+Section+12+Township+40+Range+22+W4","note":"Dominion Land Survey legal description with fraction"}
+{"id":"b-048","category":"benign","method":"GET","url":"http://archive.test/Search?q=Annapolis%20Royal","note":"plain search"}
+{"id":"b-049","category":"benign","method":"POST","url":"http://archive.test/Search","body":"q=How+did+a+homesteader+apply+for+a+patent%2C+and+are+those+patent+applications+in+the+archive%3F","contentType":"application/x-www-form-urlencoded","note":"long natural-language question with comma (POST form)"}
+{"id":"b-050","category":"benign","method":"GET","url":"http://archive.test/Search?q=Se%C3%A1n%20%C3%93%20S%C3%BAilleabh%C3%A1in%20immigration","note":"Irish name with accents"}
+{"id":"b-051","category":"benign","method":"GET","url":"http://archive.test/Search?q=Sydney%20Nova%20Scotia%20immigration","note":"plain search"}
+{"id":"b-052","category":"benign","method":"GET","url":"http://archive.test/Search?q=onion%20farm%20Ontario%201910","note":"everyday phrase onion farm"}
+{"id":"b-053","category":"benign","method":"GET","url":"http://archive.test/Search?q=Mary-Ann%20Smith-Dorrien","note":"hyphenated given name and surname"}
+{"id":"b-054","category":"benign","method":"HEAD","url":"http://archive.test/Search?q=ship+manifests","note":"plain search (HEAD)"}
+{"id":"b-055","category":"benign","method":"GET","url":"http://archive.test/Record?app=fa&IdNumber=1078","note":"record lookup"}
+{"id":"b-056","category":"benign","method":"POST","url":"http://archive.test/Search","body":"q=Sainte-Anne-de-Beaupr%C3%A9+parish+register","contentType":"application/x-www-form-urlencoded","note":"long hyphenated accented place (POST form)"}
+{"id":"b-057","category":"benign","method":"GET","url":"http://archive.test/Search?q=Hamilton%20business%20licences","note":"plain search"}
+{"id":"b-058","category":"benign","method":"GET","url":"http://archive.test/Search?q=%22ship+manifest%22+%22Empress+of+Ireland%22+1909","note":"two quoted exact phrases"}
+{"id":"b-059","category":"benign","method":"GET","url":"http://archive.test/Record?app=fa&IdNumber=1060","note":"record lookup"}
+{"id":"b-060","category":"benign","method":"HEAD","url":"http://archive.test/Search?q=1905--1911","note":"date range with double hyphen (HEAD)"}
+{"id":"b-061","category":"benign","method":"GET","url":"http://archive.test/Record?app=fa&IdNumber=1086","note":"record lookup"}
+{"id":"b-062","category":"benign","method":"GET","url":"http://archive.test/Search?q=Port%20Arthur%20Ontario","note":"plain search"}
+{"id":"b-063","category":"benign","method":"GET","url":"http://archive.test/Search?q=Pictou%20ship%20manifest","note":"plain search"}
+{"id":"b-064","category":"benign","method":"HEAD","url":"http://archive.test/Search?q=Qu%C3%A9bec","note":"accented place name (HEAD)"}
+{"id":"b-065","category":"benign","method":"HEAD","url":"http://archive.test/Search?q=Lot+%2322","note":"lot number with hash (HEAD)"}
+{"id":"b-066","category":"benign","method":"POST","url":"http://archive.test/Search","body":"q=Henri+D%27Amours+notarial+deed","contentType":"application/x-www-form-urlencoded","note":"surname with apostrophe (POST form)"}
+{"id":"b-067","category":"benign","method":"GET","url":"http://archive.test/Record?app=fa&IdNumber=1042","note":"record lookup"}
+{"id":"b-068","category":"benign","method":"GET","url":"http://archive.test/Search?q=Medicine+Hat","note":"plain search"}
+{"id":"b-069","category":"benign","method":"POST","url":"http://archive.test/Search","body":"q=Indian%20Head%20homestead","contentType":"application/x-www-form-urlencoded","note":"plain search (POST form)"}
+{"id":"b-070","category":"benign","method":"POST","url":"http://archive.test/Search","body":"q=notarial+deed+Quebec+1907","contentType":"application/x-www-form-urlencoded","note":"plain search (POST form)"}
+{"id":"b-071","category":"benign","method":"GET","url":"http://archive.test/Search?q=Trois-Rivi%C3%A8res+business+licence","note":"hyphenated accented place name"}
+{"id":"b-072","category":"benign","method":"GET","url":"http://archive.test/Search?q=Saint+John+New+Brunswick+ship+manifest","note":"plain search"}
+{"id":"b-073","category":"benign","method":"GET","url":"http://archive.test/Record?app=fa&IdNumber=1030","note":"record lookup"}
+{"id":"b-074","category":"benign","method":"POST","url":"http://archive.test/Search","body":"q=Could+you+show+me+ship+manifests+for+passengers+arriving+at+Halifax+from+Liverpool+in+spring+1907%3F","contentType":"application/x-www-form-urlencoded","note":"long natural-language question (POST form)"}
+{"id":"b-075","category":"benign","method":"HEAD","url":"http://archive.test/Search?q=%22union+station%22","note":"quoted phrase union station (HEAD)"}
+{"id":"b-076","category":"benign","method":"GET","url":"http://archive.test/Record?app=fa&IdNumber=1064","note":"record lookup"}
+{"id":"b-077","category":"benign","method":"POST","url":"http://archive.test/Search","body":"q=Mme+H%C3%A9l%C3%A8ne+C%C3%B4t%C3%A9-Laflamme","contentType":"application/x-www-form-urlencoded","note":"hyphenated accented surname (POST form)"}
+{"id":"b-078","category":"benign","method":"GET","url":"http://archive.test/Search?q=Agnes%20Murray","note":"plain search"}
+{"id":"b-079","category":"benign","method":"GET","url":"http://archive.test/Search?q=Elizabeth%20Campbell","note":"plain search"}
+{"id":"b-080","category":"benign","method":"GET","url":"http://archive.test/Search?q=Cyrillic+script+immigration+ledger","note":"everyday word script"}
+{"id":"b-081","category":"benign","method":"GET","url":"http://archive.test/Record?app=fa&IdNumber=1051","note":"record lookup"}
+{"id":"b-082","category":"benign","method":"GET","url":"http://archive.test/Search?q=ship%20manifests%20Halifax%201907","note":"plain search"}
+{"id":"b-083","category":"benign","method":"GET","url":"http://archive.test/Search?q=Saint-J%C3%A9r%C3%B4me%20parish%20register","note":"hyphenated accented place name"}
+{"id":"b-084","category":"benign","method":"GET","url":"http://archive.test/Search?q=What%20records%20exist%20for%20Ukrainian%20families%20who%20settled%20near%20Vegreville%20around%201906%3F","note":"long natural-language question"}
+{"id":"b-085","category":"benign","method":"HEAD","url":"http://archive.test/Search?q=Winnipeg","note":"plain search (HEAD)"}
+{"id":"b-086","category":"benign","method":"POST","url":"http://archive.test/Search","body":"q=Ceit%20NicN%C3%A8ill%20Mabou","contentType":"application/x-www-form-urlencoded","note":"Scottish Gaelic name (POST form)"}
+{"id":"b-087","category":"benign","method":"GET","url":"http://archive.test/Search?q=M%C3%BCller+Berlin+Ontario+1907","note":"German surname with umlaut"}
+{"id":"b-088","category":"benign","method":"HEAD","url":"http://archive.test/Search?q=Brockville","note":"plain search (HEAD)"}
+{"id":"b-089","category":"benign","method":"GET","url":"http://archive.test/Record?app=fa&IdNumber=1004","note":"record lookup"}
+{"id":"b-090","category":"benign","method":"GET","url":"http://archive.test/Search?q=E%C3%B2ghann%20MacLe%C3%B2id%20Cape%20Breton","note":"Scottish Gaelic name with grave accents"}
+{"id":"b-091","category":"benign","method":"POST","url":"http://archive.test/Search","body":"q=Union+Bank+of+Canada+deed+Regina","contentType":"application/x-www-form-urlencoded","note":"word union in bank name (POST form)"}
+{"id":"b-092","category":"benign","method":"GET","url":"http://archive.test/Search?q=Th%C3%A9riault%20notarial%20deed","note":"accented French surname"}
+{"id":"b-093","category":"benign","method":"POST","url":"http://archive.test/Search","body":"q=N%C2%BD+14-22-3-W2+homestead","contentType":"application/x-www-form-urlencoded","note":"fraction character in land description (POST form)"}
+{"id":"b-094","category":"benign","method":"GET","url":"http://archive.test/Record?app=fa&IdNumber=1039","note":"record lookup"}
+{"id":"b-095","category":"benign","method":"GET","url":"http://archive.test/Record?app=fa&IdNumber=1018","note":"record lookup"}
+{"id":"b-096","category":"benign","method":"GET","url":"http://archive.test/Search?q=Victoria+British+Columbia+1908","note":"plain search"}
+{"id":"b-097","category":"benign","method":"GET","url":"http://archive.test/Search?q=online+catalogue+survey+plans","note":"everyday phrase online catalogue"}
+{"id":"b-098","category":"benign","method":"GET","url":"http://archive.test/Search?q=homestead%20NOT%20Manitoba","note":"boolean NOT"}
+{"id":"b-099","category":"benign","method":"GET","url":"http://archive.test/Search?q=Smith+%26+Sons+Hardware+Winnipeg","note":"ampersand in business name"}
+{"id":"b-100","category":"benign","method":"POST","url":"http://archive.test/Search","body":"q=Lot+%237+%26+%238+Range+2","contentType":"application/x-www-form-urlencoded","note":"hash and ampersand in lot numbers (POST form)"}
+{"id":"b-101","category":"benign","method":"POST","url":"http://archive.test/Search","body":"q=Cranbrook+1907","contentType":"application/x-www-form-urlencoded","note":"plain search (POST form)"}
+{"id":"b-102","category":"benign","method":"GET","url":"http://archive.test/Search?q=Smith%20%2B%20Jones%20partnership","note":"plus sign in text"}
+{"id":"b-103","category":"benign","method":"GET","url":"http://archive.test/Search?q=parish%20register%20extracts%20Kingston","note":"plain search"}
+{"id":"b-104","category":"benign","method":"POST","url":"http://archive.test/Search","body":"q=survey+plan+with+map+insert+Shell+River+Manitoba","contentType":"application/x-www-form-urlencoded","note":"words insert and shell in place context (POST form)"}
+{"id":"b-105","category":"benign","method":"GET","url":"http://archive.test/Search?q=%22select%20committee%22%20immigration%201907","note":"quoted phrase containing the word select"}
+{"id":"b-106","category":"benign","method":"GET","url":"http://archive.test/Search?q=Weyburn","note":"plain search"}
+{"id":"b-107","category":"benign","method":"POST","url":"http://archive.test/Search","body":"q=Moncton%20parish%20register","contentType":"application/x-www-form-urlencoded","note":"plain search (POST form)"}
+{"id":"b-108","category":"benign","method":"GET","url":"http://archive.test/Search?q=Lot+%2314+Concession+3","note":"lot number with hash"}
+{"id":"b-109","category":"benign","method":"GET","url":"http://archive.test/Record?app=fa&IdNumber=1021","note":"record lookup"}
+{"id":"b-110","category":"benign","method":"POST","url":"http://archive.test/Search","body":"q=Bridget+O%27Reilly+ship+manifest","contentType":"application/x-www-form-urlencoded","note":"surname with apostrophe (POST form)"}
+{"id":"b-111","category":"benign","method":"POST","url":"http://archive.test/Search","body":"q=%22homestead+application%22+%22Prince+Albert%22","contentType":"application/x-www-form-urlencoded","note":"two quoted exact phrases (POST form)"}
+{"id":"b-112","category":"benign","method":"GET","url":"http://archive.test/Search?q=George%20Fraser","note":"plain search"}
+{"id":"b-113","category":"benign","method":"GET","url":"http://archive.test/Search?q=%C3%9E%C3%B3r%C3%B0arson%20Gimli","note":"Icelandic surname with thorn and eth"}
+{"id":"b-114","category":"benign","method":"GET","url":"http://archive.test/Search?q=Saskatoon%201907","note":"plain search"}
+{"id":"b-115","category":"benign","method":"GET","url":"http://archive.test/Search?q=Kenora%20survey%20plans","note":"plain search"}
+{"id":"b-116","category":"benign","method":"POST","url":"http://archive.test/Search","body":"q=25%25+share+partnership+dissolution+1910","contentType":"application/x-www-form-urlencoded","note":"percent sign in text (POST form)"}
+{"id":"b-117","category":"benign","method":"POST","url":"http://archive.test/Search","body":"q=Marie-%C3%88ve%20Gagn%C3%A9","contentType":"application/x-www-form-urlencoded","note":"hyphenated accented given name (POST form)"}
+{"id":"b-118","category":"benign","method":"POST","url":"http://archive.test/Search","body":"q=Are%20there%20any%20business%20licences%20issued%20to%20Chinese%20merchants%20in%20Victoria%20between%201905%20and%201911%3F","contentType":"application/x-www-form-urlencoded","note":"long natural-language question (POST form)"}
+{"id":"b-119","category":"benign","method":"HEAD","url":"http://archive.test/Search?q=Edmonton%20business%20licence","note":"plain search (HEAD)"}
+{"id":"b-120","category":"benign","method":"GET","url":"http://archive.test/Search?q=Kamloops%201906","note":"plain search"}
+{"id":"b-121","category":"benign","method":"GET","url":"http://archive.test/Search?q=Fredericton+notarial+deed","note":"plain search"}
+{"id":"b-122","category":"benign","method":"GET","url":"http://archive.test/Record?app=fa&IdNumber=1033","note":"record lookup"}
+{"id":"b-123","category":"benign","method":"GET","url":"http://archive.test/Search?q=Patrick+O%27Neill+homestead","note":"surname with apostrophe"}
+{"id":"b-124","category":"benign","method":"POST","url":"http://archive.test/Search","body":"q=executor%27s+deed+Kingston+1906","contentType":"application/x-www-form-urlencoded","note":"word executor with apostrophe (POST form)"}
+{"id":"b-125","category":"benign","method":"POST","url":"http://archive.test/Search","body":"q=Catherine+Ross","contentType":"application/x-www-form-urlencoded","note":"plain search (POST form)"}
+{"id":"b-126","category":"benign","method":"GET","url":"http://archive.test/Search?q=Dupuis+Fr%C3%A8res+1908","note":"accented French business name"}
+{"id":"b-127","category":"benign","method":"HEAD","url":"http://archive.test/Record?app=fa&IdNumber=1050","note":"record lookup (HEAD)"}
+{"id":"b-128","category":"benign","method":"GET","url":"http://archive.test/Record?app=fa&IdNumber=1036","note":"record lookup"}
+{"id":"b-129","category":"benign","method":"POST","url":"http://archive.test/Search","body":"q=Alexander+Grant","contentType":"application/x-www-form-urlencoded","note":"plain search (POST form)"}
+{"id":"b-130","category":"benign","method":"HEAD","url":"http://archive.test/Record?app=fa&IdNumber=1073","note":"record lookup (HEAD)"}
+{"id":"b-131","category":"benign","method":"GET","url":"http://archive.test/Record?app=fa&IdNumber=1007","note":"record lookup"}
+{"id":"b-132","category":"benign","method":"GET","url":"http://archive.test/Search?q=survey%20plans%20Regina","note":"plain search"}
+{"id":"b-133","category":"benign","method":"GET","url":"http://archive.test/Search?q=Portage%20la%20Prairie%20land%20grant","note":"plain search"}
+{"id":"b-134","category":"benign","method":"HEAD","url":"http://archive.test/Search?q=script","note":"everyday word script (HEAD)"}
+{"id":"b-135","category":"benign","method":"GET","url":"http://archive.test/Record?app=fa&IdNumber=1082","note":"record lookup"}
+{"id":"b-136","category":"benign","method":"POST","url":"http://archive.test/Search","body":"q=Duncan+Cameron","contentType":"application/x-www-form-urlencoded","note":"plain search (POST form)"}
+{"id":"b-137","category":"benign","method":"GET","url":"http://archive.test/Record?app=fa&IdNumber=1099","note":"record lookup"}
+{"id":"b-138","category":"benign","method":"POST","url":"http://archive.test/Search","body":"q=Wolseley+Saskatchewan","contentType":"application/x-www-form-urlencoded","note":"plain search (POST form)"}
+{"id":"b-139","category":"benign","method":"GET","url":"http://archive.test/Search?q=Estevan","note":"plain search"}
+{"id":"b-140","category":"benign","method":"POST","url":"http://archive.test/Search","body":"q=New+Westminster+survey+plan","contentType":"application/x-www-form-urlencoded","note":"plain search (POST form)"}
+{"id":"b-141","category":"benign","method":"GET","url":"http://archive.test/Search?q=notice%20for%20prompt%20payment%20of%20homestead%20fees","note":"everyday word prompt"}
+{"id":"b-142","category":"benign","method":"HEAD","url":"http://archive.test/Search?q=survey%20plans%20Manitoba","note":"plain search (HEAD)"}
+{"id":"b-143","category":"benign","method":"GET","url":"http://archive.test/Record?app=fa&IdNumber=1012","note":"record lookup"}
+{"id":"b-144","category":"benign","method":"POST","url":"http://archive.test/Search","body":"q=Brown+%26+Co.+business+licence+Halifax","contentType":"application/x-www-form-urlencoded","note":"ampersand in business name (POST form)"}
+{"id":"b-145","category":"benign","method":"POST","url":"http://archive.test/Search","body":"q=land+grant+Okanagan","contentType":"application/x-www-form-urlencoded","note":"plain search (POST form)"}
+{"id":"b-146","category":"benign","method":"GET","url":"http://archive.test/Search?q=Charlottetown%20parish%20register","note":"plain search"}
+{"id":"b-147","category":"benign","method":"POST","url":"http://archive.test/Search","body":"q=Cobalt+Ontario+business+licence","contentType":"application/x-www-form-urlencoded","note":"plain search (POST form)"}
+{"id":"b-148","category":"benign","method":"GET","url":"http://archive.test/Search?q=John+MacDonald","note":"plain search"}
+{"id":"b-149","category":"benign","method":"POST","url":"http://archive.test/Search","body":"q=Wetaskiwin%20homestead","contentType":"application/x-www-form-urlencoded","note":"plain search (POST form)"}
+{"id":"b-150","category":"benign","method":"GET","url":"http://archive.test/Search?q=Rivi%C3%A8re-du-Loup%201910","note":"hyphenated accented place name"}
+{"id":"b-151","category":"benign","method":"GET","url":"http://archive.test/Search?q=notarial+deeds+Montreal+1909","note":"plain search"}
+{"id":"b-152","category":"benign","method":"GET","url":"http://archive.test/Record?app=fa&IdNumber=1054","note":"record lookup"}
+{"id":"b-153","category":"benign","method":"HEAD","url":"http://archive.test/Record?app=fa&IdNumber=1010","note":"record lookup (HEAD)"}
+{"id":"b-154","category":"benign","method":"POST","url":"http://archive.test/Search","body":"q=Section+12+%2B+Section+13+survey+plan","contentType":"application/x-www-form-urlencoded","note":"plus sign between terms (POST form)"}
+{"id":"b-155","category":"benign","method":"GET","url":"http://archive.test/Search?q=Thomas%20Wilson%20Ontario","note":"plain search"}
+{"id":"b-156","category":"benign","method":"HEAD","url":"http://archive.test/Record?app=fa&IdNumber=1088","note":"record lookup (HEAD)"}
+{"id":"b-157","category":"benign","method":"GET","url":"http://archive.test/Search?q=Moose%20Jaw","note":"plain search"}
+{"id":"b-158","category":"benign","method":"GET","url":"http://archive.test/Search?q=%D0%92%D0%B0%D1%81%D0%B8%D0%BB%D1%8C%20%D0%84%D0%BB%D0%B5%D0%BD%D1%8F%D0%BA","note":"Ukrainian name in Cyrillic"}
+{"id":"b-159","category":"benign","method":"GET","url":"http://archive.test/Record?app=fa&IdNumber=1048","note":"record lookup"}
+{"id":"b-160","category":"benign","method":"GET","url":"http://archive.test/Search?q=Lethbridge+1910","note":"plain search"}
+{"id":"b-161","category":"benign","method":"POST","url":"http://archive.test/Search","body":"q=Neepawa","contentType":"application/x-www-form-urlencoded","note":"plain search (POST form)"}
+{"id":"b-162","category":"benign","method":"HEAD","url":"http://archive.test/Search?q=homestead","note":"plain search (HEAD)"}
+{"id":"b-163","category":"benign","method":"GET","url":"http://archive.test/Record?app=fa&IdNumber=1023","note":"record lookup"}
+{"id":"b-164","category":"benign","method":"GET","url":"http://archive.test/Search?q=Nelson%20British%20Columbia%20licence","note":"plain search"}
+{"id":"b-165","category":"benign","method":"GET","url":"http://archive.test/Search?q=land%20grants%20Alberta%201906","note":"plain search"}
+{"id":"b-166","category":"benign","method":"GET","url":"http://archive.test/Search?q=Battleford+homestead+application","note":"plain search"}
+{"id":"b-167","category":"benign","method":"GET","url":"http://archive.test/Record?app=fa&IdNumber=1057","note":"record lookup"}
+{"id":"b-168","category":"benign","method":"GET","url":"http://archive.test/Search?q=M%C3%A1ire%20N%C3%AD%20Bhriain","note":"Irish Gaelic name with accents"}
+{"id":"b-169","category":"benign","method":"POST","url":"http://archive.test/Search","body":"q=Regina+1909","contentType":"application/x-www-form-urlencoded","note":"plain search (POST form)"}
+{"id":"b-170","category":"benign","method":"GET","url":"http://archive.test/Search?q=MacDonald+AND+Antigonish","note":"boolean AND"}
+{"id":"b-171","category":"benign","method":"POST","url":"http://archive.test/Search","body":"q=parish%20register%20Antigonish","contentType":"application/x-www-form-urlencoded","note":"plain search (POST form)"}
+{"id":"b-172","category":"benign","method":"POST","url":"http://archive.test/Search","body":"q=Hugh+O%27Donnell+%26+Sons","contentType":"application/x-www-form-urlencoded","note":"apostrophe and ampersand (POST form)"}
+{"id":"b-173","category":"benign","method":"POST","url":"http://archive.test/Search","body":"q=business%20licence%20Toronto%201908","contentType":"application/x-www-form-urlencoded","note":"plain search (POST form)"}
+{"id":"b-174","category":"benign","method":"GET","url":"http://archive.test/Search?q=William%20Henderson%20homestead","note":"plain search"}
+{"id":"b-175","category":"benign","method":"GET","url":"http://archive.test/Search?q=Jean-Baptiste%20L%C3%A9vesque","note":"hyphenated given name with accented French surname"}
+{"id":"b-176","category":"benign","method":"GET","url":"http://archive.test/Search?q=Winnipeg%20business%20licences%201910","note":"plain search"}
+{"id":"b-177","category":"benign","method":"POST","url":"http://archive.test/Search","body":"q=homestead+application+Manitoba","contentType":"application/x-www-form-urlencoded","note":"plain search (POST form)"}
+{"id":"b-178","category":"benign","method":"HEAD","url":"http://archive.test/Search?q=Hugh+Morrison","note":"plain search (HEAD)"}
+{"id":"b-179","category":"benign","method":"POST","url":"http://archive.test/Search","body":"q=immigration+ledger+1906","contentType":"application/x-www-form-urlencoded","note":"plain search (POST form)"}
+{"id":"b-180","category":"benign","method":"GET","url":"http://archive.test/","note":"home page (repeat visit)"}
+{"id":"b-181","category":"benign","method":"POST","url":"http://archive.test/Search","body":"q=Melfort+land+grant","contentType":"application/x-www-form-urlencoded","note":"plain search (POST form)"}
+{"id":"b-182","category":"benign","method":"GET","url":"http://archive.test/Record?app=fa&IdNumber=1045","note":"record lookup"}
+{"id":"b-183","category":"benign","method":"HEAD","url":"http://archive.test/Record?app=fa&IdNumber=1026","note":"record lookup (HEAD)"}
+{"id":"b-184","category":"benign","method":"GET","url":"http://archive.test/Search?q=Swift%20Current%20homestead%201909","note":"plain search"}
+{"id":"b-185","category":"benign","method":"GET","url":"http://archive.test/Search?q=Dawson%20City%20business%20licence","note":"plain search"}
+{"id":"b-186","category":"benign","method":"GET","url":"http://archive.test/Search?q=Truro+Nova+Scotia+1905","note":"plain search"}
+{"id":"b-187","category":"benign","method":"GET","url":"http://archive.test/Search?q=%22St.%20Mary%27s%22%20parish%20register%20Halifax","note":"quoted phrase with period and apostrophe"}
+{"id":"b-188","category":"benign","method":"POST","url":"http://archive.test/Search","body":"q=%22notarial+deed%22+B%C3%A9langer+1909","contentType":"application/x-www-form-urlencoded","note":"quoted phrase with accented surname (POST form)"}
+{"id":"b-189","category":"benign","method":"GET","url":"http://archive.test/Search?q=Ross+%26+Macdonald+architects+survey+plan","note":"ampersand in firm name"}
+{"id":"b-190","category":"benign","method":"GET","url":"http://archive.test/Record?app=fa&IdNumber=1071","note":"record lookup"}
+{"id":"b-191","category":"benign","method":"GET","url":"http://archive.test/Search?q=D%27Arcy%20McGee","note":"given name with apostrophe"}
+{"id":"b-192","category":"benign","method":"POST","url":"http://archive.test/Search","body":"q=%22Saint%20John%22%20NOT%20%22St.%20John%27s%22","contentType":"application/x-www-form-urlencoded","note":"quoted phrases with boolean NOT (POST form)"}
+{"id":"b-193","category":"benign","method":"GET","url":"http://archive.test/","note":"home page"}
+{"id":"b-194","category":"benign","method":"GET","url":"http://archive.test/Search?q=%22Hudson%27s%20Bay%20Company%22%20land%20grant","note":"quoted exact phrase with apostrophe"}
+{"id":"b-195","category":"benign","method":"POST","url":"http://archive.test/Search","body":"q=Th%C3%A9riault%20%26%20Fr%C3%A8res","contentType":"application/x-www-form-urlencoded","note":"ampersand with accented names (POST form)"}
+{"id":"b-196","category":"benign","method":"GET","url":"http://archive.test/Search?q=immigration+ledgers+Quebec+City","note":"plain search"}
+{"id":"b-197","category":"benign","method":"GET","url":"http://archive.test/Search?q=50%25%20interest%20mining%20claim%20deed","note":"percent sign in text"}
+{"id":"b-198","category":"benign","method":"POST","url":"http://archive.test/Search","body":"q=Margaret+Douglas","contentType":"application/x-www-form-urlencoded","note":"plain search (POST form)"}
+{"id":"b-199","category":"benign","method":"GET","url":"http://archive.test/Search?q=Vancouver%20business%20licence%201911","note":"plain search"}
+{"id":"b-200","category":"benign","method":"GET","url":"http://archive.test/Record?app=fa&IdNumber=1001","note":"record lookup"}
+{"id":"o-001","category":"off-allowlist","method":"GET","url":"http://outside.test/Search?q=homestead%20applications%20Alberta%201907","note":"off-allowlist host; plain search"}
+{"id":"o-002","category":"off-allowlist","method":"GET","url":"http://outside.test/Search?q=Winnipeg+land+grants","note":"off-allowlist host; plain search"}
+{"id":"o-003","category":"off-allowlist","method":"GET","url":"http://outside.test/Search?q=Margaret%20O%27Brien","note":"off-allowlist host; surname with apostrophe"}
+{"id":"o-004","category":"off-allowlist","method":"GET","url":"http://outside.test/Search?q=ship%20manifests%20Halifax%201909","note":"off-allowlist host; plain search"}
+{"id":"o-005","category":"off-allowlist","method":"GET","url":"http://outside.test/Search?q=notarial%20deeds%20Montr%C3%A9al","note":"off-allowlist host; accented place name"}
+{"id":"o-006","category":"off-allowlist","method":"GET","url":"http://outside.test/Search?q=Regina+business+licence","note":"off-allowlist host; plain search"}
+{"id":"o-007","category":"off-allowlist","method":"GET","url":"http://outside.test/Search?q=survey%20plans%20Saskatoon","note":"off-allowlist host; plain search"}
+{"id":"o-008","category":"off-allowlist","method":"GET","url":"http://outside.test/Search?q=%22parish%20register%22%20Antigonish","note":"off-allowlist host; quoted phrase"}
+{"id":"o-009","category":"off-allowlist","method":"GET","url":"http://outside.test/Search?q=Smith%20%26%20Sons","note":"off-allowlist host; ampersand in business name"}
+{"id":"o-010","category":"off-allowlist","method":"GET","url":"http://outside.test/Search?q=immigration%20ledgers%201905--1911","note":"off-allowlist host; date range with double hyphen"}
+{"id":"o-011","category":"off-allowlist","method":"GET","url":"http://outside.test/Search?q=Lot%20%239%20Concession%204","note":"off-allowlist host; lot number with hash"}
+{"id":"o-012","category":"off-allowlist","method":"GET","url":"http://outside.test/Search?q=John+Campbell","note":"off-allowlist host; plain search"}
+{"id":"o-013","category":"off-allowlist","method":"GET","url":"http://outside.test/Search?q=Edmonton%201910","note":"off-allowlist host; plain search"}
+{"id":"o-014","category":"off-allowlist","method":"GET","url":"http://outside.test/Search?q=Jean-Baptiste%20C%C3%B4t%C3%A9","note":"off-allowlist host; hyphenated accented name"}
+{"id":"o-015","category":"off-allowlist","method":"POST","url":"http://outside.test/Search","body":"q=homestead+application+Brandon","contentType":"application/x-www-form-urlencoded","note":"off-allowlist host; plain search (POST form)"}
+{"id":"o-016","category":"off-allowlist","method":"POST","url":"http://outside.test/Search","body":"q=Patrick+O%27Neill","contentType":"application/x-www-form-urlencoded","note":"off-allowlist host; surname with apostrophe (POST form)"}
+{"id":"o-017","category":"off-allowlist","method":"POST","url":"http://outside.test/Search","body":"q=land+grant+1906%2F07","contentType":"application/x-www-form-urlencoded","note":"off-allowlist host; date range with slash (POST form)"}
+{"id":"o-018","category":"off-allowlist","method":"GET","url":"http://outside.test/Record?app=fa&IdNumber=1031","note":"off-allowlist host; record lookup"}
+{"id":"o-019","category":"off-allowlist","method":"GET","url":"http://outside.test/Record?app=fa&IdNumber=1067","note":"off-allowlist host; record lookup"}
+{"id":"o-020","category":"off-allowlist","method":"HEAD","url":"http://outside.test/Record?app=fa&IdNumber=1093","note":"off-allowlist host; record lookup (HEAD)"}
+{"id":"o-021","category":"off-allowlist","method":"GET","url":"http://outside.test/","note":"off-allowlist host; home page"}
+{"id":"o-022","category":"off-allowlist","method":"HEAD","url":"http://outside.test/Search?q=Victoria%201908","note":"off-allowlist host; plain search (HEAD)"}
+{"id":"o-023","category":"off-allowlist","method":"HEAD","url":"http://outside.test/Search?q=Moose+Jaw","note":"off-allowlist host; plain search (HEAD)"}
+{"id":"o-024","category":"off-allowlist","method":"HEAD","url":"http://outside.test/","note":"off-allowlist host; home page (HEAD)"}
+{"id":"o-025","category":"off-allowlist","method":"GET","url":"http://OUTSIDE.TEST/Search?q=homestead%20Yorkton","note":"uppercase host spelling; plain search"}
+{"id":"o-026","category":"off-allowlist","method":"GET","url":"http://OUTSIDE.TEST/Record?app=fa&IdNumber=1044","note":"uppercase host spelling; record lookup"}
+{"id":"o-027","category":"off-allowlist","method":"GET","url":"http://outside.test:80/Search?q=parish%20register%20Sherbrooke","note":"explicit port 80; plain search"}
+{"id":"o-028","category":"off-allowlist","method":"POST","url":"http://outside.test:80/Search","body":"q=business+licence+Calgary","contentType":"application/x-www-form-urlencoded","note":"explicit port 80; plain search (POST form)"}
+{"id":"o-029","category":"off-allowlist","method":"GET","url":"http://www.outside.test/Search?q=ship%20manifest%20Saint%20John","note":"www subdomain; plain search"}
+{"id":"o-030","category":"off-allowlist","method":"GET","url":"http://www.outside.test/","note":"www subdomain; home page"}

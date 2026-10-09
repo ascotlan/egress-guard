@@ -1,0 +1,4 @@
+node_modules/
+.DS_Store
+# Smoke runs only check the plumbing; they are not evidence.
+results/*-smoke-*/
